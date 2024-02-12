@@ -231,6 +231,10 @@ class CommandArguments {
    * return true. If the flag is not allowed for the current command, will
    * return `null`.
    *
+<<<<<<< HEAD
+=======
+   * @param {!string} flag
+>>>>>>> 41456452f29d64e8deb623a3c927524bcf9f111b
    * @param {?string} value
    * @returns {?boolean}
    * @throws Will throw an error if the flag is allowed and `value` is not
