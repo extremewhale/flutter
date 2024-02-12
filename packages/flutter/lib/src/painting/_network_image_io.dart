@@ -166,6 +166,7 @@ class NetworkImage extends image_provider.ImageProvider<image_provider.NetworkIm
         PaintingBinding.instance.imageCache.evict(key);
       });
       rethrow;
+      rethrow;
     } finally {
       chunkEvents.close();
     }
